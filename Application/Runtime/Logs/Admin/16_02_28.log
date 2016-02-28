@@ -1,0 +1,29 @@
+[ 2016-02-28T18:31:44+08:00 ] ::1 /lab/index.php/Index/tables.html
+ERR: 非法操作:tables
+
+[ 2016-02-28T18:57:49+08:00 ] ::1 /lab/index.php/Index/shownewslist.html
+ERR: Undefined class constant 'self::BLEONGS_TO'
+
+[ 2016-02-28T18:58:53+08:00 ] ::1 /lab/index.php/Index/shownewslist.html
+ERR: Undefined class constant 'self::BElONGS_TO'
+
+[ 2016-02-28T18:58:55+08:00 ] ::1 /lab/index.php/Index/shownewslist.html
+ERR: Undefined class constant 'self::BElONGS_TO'
+
+[ 2016-02-28T19:06:24+08:00 ] ::1 /lab/index.php/Index/shownewslist.html
+ERR: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+
+[ 2016-02-28T19:08:40+08:00 ] ::1 /lab/Public/admin/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2016-02-28T19:09:09+08:00 ] ::1 /lab/index.php/Index/shownewslist.html
+ERR: 1146:Table 'mlab.lab_class_name' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `lab_class_name`
+
+[ 2016-02-28T19:10:07+08:00 ] ::1 /lab/index.php/Index/shownewslist.html
+ERR: 1146:Table 'mlab.lab_foreign_key' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `lab_foreign_key`
+
+[ 2016-02-28T19:36:24+08:00 ] ::1 /lab/index.php/Index/editnews/id/1.html
+ERR: syntax error, unexpected 'die' (T_EXIT)
+

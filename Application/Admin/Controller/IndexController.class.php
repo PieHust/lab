@@ -9,7 +9,8 @@ class IndexController extends Controller {
     }
 
     /**
-     * 编辑实验室概况，如果没有新的提交则显示实验室概况信息。
+     * [showLabInfo description] edit the introduction of laboratory
+     * @return [void] [description]
      */
     public function showLabInfo(){
         $labInfo = M('info');
@@ -32,4 +33,73 @@ class IndexController extends Controller {
         }
        	
     }
+
+    /**
+     * [showNewsList description]show the list of news
+     * @return [void]
+     */
+    public function showNewsList(){
+
+        $news = D('news');
+
+        $this->list = $news->relation(true)->select();
+        //print_r($this->list);
+        //die();
+        $this->display();
+
+    }
+
+    /**
+     * [editNews description]get article's id and edit the aticle
+     * @param  [int] $id [the id of the article]
+     * @return [void]     
+     */
+    public function editNews($id){
+        $news = D('news');
+        $news_class = M('news_class');
+        $this->arr = $news->relation(true)->where('id='.$id)->find(1);
+        $this->type = $news_class->select();
+        $this->display();
+    }
+    /**
+     * [addNews description] add new article
+     */
+    public function addNews(){
+
+    }
+
+    /**
+     * [delNews description]according to news id, delete news.
+     * @param  [type] $id [the news id]
+     * @return [json]     []
+     */
+    public function delNews($id){
+        $news = M('news');
+        $status = $news->where('id='.$id)->delete();
+        if($status){
+            $this->ajaxReturn('ok');
+        }
+        $this->ajaxReturn('error');
+    }
+
+    /**
+     * [setShow description]according to news id,set to become the show on homepage.
+     * @param [type] $id [description]
+     */
+    public function setShow($id){
+        $news = M('news');
+        $news->tag = 1;
+        $news->where('id='.$id)->save();
+        $this->redirect('showNewsList');
+    }
+
+    public function cancelSet($id){
+        $news = M('news');
+        $news->tag = 0;
+        $news->where('id='.$id)->save();
+        $this->redirect('showNewsList');
+
+    }
+
+    
 }
