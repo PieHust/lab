@@ -1,0 +1,17 @@
+[ 2016-03-04T20:45:52+08:00 ] ::1 /index.php/Index/editnews/id/1.html
+ERR: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+
+[ 2016-03-04T20:47:14+08:00 ] ::1 /index.php/Index/tables.html
+ERR: 非法操作:tables
+
+[ 2016-03-04T20:47:19+08:00 ] ::1 /index.php/Index/bootstrap-elements.html
+ERR: 非法操作:bootstrap-elements
+
+[ 2016-03-04T21:13:48+08:00 ] ::1 /index.php/Index/savenews/id/1.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `lab_news` SET `title`='我是测试条目',`class_id`='2',`content`='<p>哈哈哈哈哈哈</p>',`pic`='' WHERE ( id= )
+
+[ 2016-03-04T21:15:39+08:00 ] ::1 /index.php/Index/savenews/id/1.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `lab_news` SET `title`='我是测试条目',`class_id`='2',`content`='<p>哈哈哈哈哈哈</p>',`pic`='' WHERE ( id= )
+

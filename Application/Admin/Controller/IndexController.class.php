@@ -20,11 +20,20 @@ class IndexController extends Controller {
     		$this->display();
 
     	}else{
+            if(!empty($_FILES['infopic']['name'])){
+                $name = 'infopic';
+                $pic ="./Public/Uploads/".$this->upload($name);
+            }else{
+                $pic = '';
+            }
+
             $data = array(
             'id' => 1,
             'content' =>$_POST['content'] , 
             'date' =>I('post.date'),
+            'pic' => $pic,
             );
+            
             $status = $labInfo->save($data);
             if($status){
                  $this->redirect('showLabInfo');
@@ -61,6 +70,33 @@ class IndexController extends Controller {
         $this->type = $news_class->select();
         $this->display();
     }
+
+    /**
+     * @param  [type] $id 
+     * @return [void]
+     */
+    public function saveNews($id){
+        
+        $news = M('news');
+        if(!empty($_FILES['infopic']['name'])){
+            $name = 'infopic';
+            $pic ="./Public/Uploads/".$this->upload($name);
+        }else{
+            $pic = '';
+        }
+        
+        $data = array(
+            'title' => I('post.title'),
+            'class_id' =>I('post.class'),
+            'content' => $_POST['content'],
+            'pic' => $pic,
+            'date' => time()
+            );
+        $news->where('id='.$id)->save($data);
+        $this->redirect('showNewsList');
+    }
+
+
     /**
      * [addNews description] add new article
      */
@@ -101,5 +137,19 @@ class IndexController extends Controller {
 
     }
 
-    
+
+    public function upload($name){
+        $upload = new \Think\Upload();// 实例化上传类
+        $upload->maxSize   =     3145728 ;// 设置附件上传大小
+        $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型    
+        $upload->rootPath  =      './Public/Uploads/'; // 设置附件上传目录  
+        $upload->saveName = 'time';
+        $info   =   $upload->uploadOne($_FILES[$name]);    
+        if(!$info) {// 上传错误提示错误信息        
+            $this->error($upload->getError());    
+        }else{// 上传成功 获取上传文件信息         
+            return $info['savepath'].$info['savename'];   
+             
+        }
+    } 
 }
