@@ -101,11 +101,37 @@ class IndexController extends Controller {
      * [addNews description] add new article
      */
     public function addNews(){
+        if(IS_POST){
+            $news = M('news');
+            if(!empty($_FILES['infopic']['name'])){
+                $name = 'infopic';
+                $pic ="./Public/Uploads/".$this->upload($name);
+            }else{
+                $pic = '';
+            }
+            $data = array(
+                'title' => I('post.title'),
+                'class_id' =>I('post.class'),
+                'content' => $_POST['content'],
+                'pic' => $pic,
+                'date' => time()
+                );
+            $news->add($data);
+            $this->redirect('showNewsList');
+        }
+        else{
+            $news = D('news');
+            $news_class = M('news_class');
+            $this->arr = $news->relation(true)->where('id='.$id)->find(1);
+            $this->type = $news_class->select();
+            $this->display();
+        }
+       
 
     }
 
     /**
-     * [delNews description]according to news id, delete news.
+     * [delNews description]according to news's id, delete news.
      * @param  [type] $id [the news id]
      * @return [json]     []
      */

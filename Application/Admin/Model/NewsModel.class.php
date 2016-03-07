@@ -14,4 +14,5 @@ class NewsModel extends RelationModel{
 
 				)
 		);
+
 }

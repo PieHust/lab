@@ -94,64 +94,70 @@
         </nav>
 
 
-        <div id="page-wrapper">
+        
+<link href="/Public/admin/css/fileinput.min.css" media="all" rel="stylesheet" type="text/css" />
+
+<script src="/Public/admin/js/fileinput.min.js" type="text/javascript"></script>
+<div id="page-wrapper">
 
     <div class="container-fluid">
 
         <!-- Page Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">新闻资讯</h1>
+                <h1 class="page-header">添加新闻</h1>
                 <ol class="breadcrumb">
                     <li> <i class="fa fa-dashboard"></i>
                         <a href="index.html">主页</a>
                     </li>
-                    <li class="active"> <i class="fa fa-table"></i>
-                        新闻资讯
+                    <li class="active"> <i class="fa fa-edit"></i>
+                        添加新闻
                     </li>
                 </ol>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>新闻文章列表</h2>
-                <div class="table-responsive">
-                    <table class="table table-bordered table-hover table-striped">
-                        <thead>
-                            <tr>
-                                <th>标题</th>
-                                <th>发布时间</th>
-                                <th>类别</th>
-                                <th>操作</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <?php foreach($list as $k => $v):?>
-                            <tr>
-                                <td><?php echo ($v["title"]); ?></td>
-                                <td><?php echo date('Y-m-d',$v['date']);?></td>
-                                <td><?php echo ($v["type"]); ?></td>
-                                <td>
-                                    <a href="<?php echo U('editnews',array('id' => $v['id']));?>" class='btn-danger'> 编辑</a>
-                                    <a href="<?php echo U('delnews',array('id' => $v['id']));?>" class='btn-danger'> 删除</a>
-                                    <?php if($v['tag']==0):?>
-                                    <a href="<?php echo U('setshow',array('id' => $v['id']));?>" class='btn-danger'> 设置展示</a>
-                                <?php else:?>
-                                    <a href="<?php echo U('cancelset',array('id' => $v['id']));?>" class='btn-danger'> 取消设置</a>
-                                <?php endif;?>
-                                </td>
-                            </tr>
-                        <?php endforeach;?>
-                           
-                              
-                        </tbody>
-                    </table>
+        <!-- /.row -->
+        <form action="<?php echo U('addnews');?>" method="post" enctype="multipart/form-data">
+            <div class="row">
+
+                <div class="col-lg-3">
+                    <label class="control-label">文章标题</label>
+                    <input type="text" placeholder="标题" name='title' class="form-control" value=""></div>
+                <div class="col-lg-6">
+                    <label class="control-label">展示图片</label>
+                    <input id="file-0a" class="file" type="file" multiple data-min-file-count="0" name='infopic'>
+                    <br></div>
+                <div class="col-lg-3">
+                    <label class="control-label">文章类别</label>
+                    <select class="form-control" name="class" id="sel-opt">
+                        <?php foreach($type as $k=> $v):?>
+                        <option value="<?php echo ($v["id"]); ?>"><?php echo ($v["class_name"]); ?></option>
+                        <?php endforeach;?></select>
                 </div>
             </div>
-            
-        </div>
-    </div>
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <script id="container" name="content" type="text/plain"></script>
+
+                    <button type="submit" class="btn btn-default">提交修改</button>
+
+                </div>
+
+            </div>
+        </form>
+        <!-- /.row --> </div>
+    <!-- /.container-fluid -->
+
 </div>
+
+<!-- 配置文件 -->
+<script type="text/javascript" src="/Public/admin/ueditor.config.js"></script>
+<!-- 编辑器源码文件 -->
+<script type="text/javascript" src="/Public/admin/ueditor.all.js"></script>
+<!-- 实例化编辑器 -->
+<script type="text/javascript">var ue = UE.getEditor('container');</script>
+<!-- <script type="text/javascript">$("option[value=<?php echo ($arr["class_id"]); ?>]").attr("selected",true);</script> -->
 </div>
     <!-- /#wrapper -->
 

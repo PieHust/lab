@@ -78,7 +78,7 @@
                         <a href="<?php echo U('shownewslist');?>"><i class="fa fa-fw fa-table"></i> 新闻资讯</a>
                     </li>
                     <li>
-                        <a href="tables.html"><i class="fa fa-fw fa-table"></i> 成果展示</a>
+                        <a href="<?php echo U('showachieve');?>"><i class="fa fa-fw fa-table"></i> 成果展示</a>
                     </li>
                     <li>
                         <a href="charts.html"><i class="fa fa-fw fa-bar-chart-o"></i> Charts</a>

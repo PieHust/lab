@@ -15,3 +15,6 @@ ERR: 1064:You have an error in your SQL syntax; check the manual that correspond
 ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
  [ SQL语句 ] : UPDATE `lab_news` SET `title`='我是测试条目',`class_id`='2',`content`='<p>哈哈哈哈哈哈</p>',`pic`='' WHERE ( id= )
 
+[ 2016-03-04T21:28:39+08:00 ] ::1 /index.php/Index/showachieve.html
+ERR: 非法操作:showachieve
+
