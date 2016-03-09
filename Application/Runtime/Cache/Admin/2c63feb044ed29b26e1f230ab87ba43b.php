@@ -102,98 +102,60 @@
         </nav>
 
 
-        <style>
-    th,td{
-        width:25%;
-        border: 1px solid gray;
-        text-align: center;
-    }
-</style>
-
-<div id="page-wrapper">
+        <div id="page-wrapper">
 
     <div class="container-fluid">
 
         <!-- Page Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">
-                    主页
-                    <small>总体信息展示</small>
-                </h1>
-
+                <h1 class="page-header">成果展示</h1>
+                <ol class="breadcrumb">
+                    <li> <i class="fa fa-dashboard"></i>
+                        <a href="<?php echo U('index/index');?>">主页</a>
+                    </li>
+                    <li class="active"> <i class="fa fa-table"></i>
+                        成果展示
+                    </li>
+                </ol>
             </div>
         </div>
-        <!-- /.row -->
-
         <div class="row">
             <div class="col-lg-12">
-                <div class="alert alert-info alert-dismissable">
-                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> <i class="fa fa-info-circle"></i> <strong>系统介绍</strong>
-                    该系统采用LAMP环境搭建，具体信息见下表：
-                    <br/>
-                    <table style = "border:1px solid gray;width:100%;">
-                        <tr>
-                            <th>服务器地址</th>
-                            <th>语言</th>
-                            <th>数据库</th>
-                            <th>服务器环境</th>
-                        </tr>
-                        <tr>
-                            <td>
-                                <?php echo $_SERVER['HTTP_HOST'],':',$_SERVER['SERVER_PORT'];?></td>
-                            <td>
-                                <?php echo php,PHP_VERSION;?></td>
-                            <td>Mysql</td>
-                            <td>
-                                <?php echo $_SERVER['SERVER_SOFTWARE'];?></td>
-                        </tr>
+                <h2>成果列表</h2>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>标题</th>
+                                <th>地址</th>
+                                <th>类别</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php foreach($list as $k => $v):?>
+                            <tr>
+                                <td><?php echo ($v["title"]); ?></td>
+                                <td><?php echo ($v["url"]); ?></td>
+                                <td><?php echo ($v["type"]); ?></td>
+                                <td>
+                                    <a href="<?php echo U('result/editresult',array('id' => $v['id']));?>" class='btn-danger'> 编辑</a>
+                                    <a href="<?php echo U('result/delresult',array('id' => $v['id']));?>" class='btn-danger'> 删除</a>
+
+                                </td>
+                            </tr>
+                        <?php endforeach;?>
+                           
+                              
+                        </tbody>
                     </table>
                 </div>
             </div>
+            
         </div>
-        <!-- /.row -->
-
-        <div class="row">
-            <div class="col-lg-6 col-md-6">
-                <div class="panel panel-primary">
-                    <div class="panel-heading">
-                        <div class="row">
-                            <div class="col-xs-3"> <i class="fa fa-comments fa-5x"></i>
-                            </div>
-                            <div class="col-xs-9 text-right">
-                                <div class="huge">26</div>
-                                <div>新闻数</div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6">
-                <div class="panel panel-green">
-                    <div class="panel-heading">
-                        <div class="row">
-                            <div class="col-xs-3">
-                                <i class="fa fa-tasks fa-5x"></i>
-                            </div>
-                            <div class="col-xs-9 text-right">
-                                <div class="huge">12</div>
-                                <div>成果展示数</div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-        <!-- /.row --> </div>
-    <!-- /.container-fluid -->
-
+    </div>
 </div>
-<!-- /#page-wrapper -->
-
 </div>
     <!-- /#wrapper -->
 

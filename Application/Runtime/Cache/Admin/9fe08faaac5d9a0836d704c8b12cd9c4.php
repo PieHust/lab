@@ -102,14 +102,10 @@
         </nav>
 
 
-        <style>
-    th,td{
-        width:25%;
-        border: 1px solid gray;
-        text-align: center;
-    }
-</style>
+        
+<link href="/Public/admin/css/fileinput.min.css" media="all" rel="stylesheet" type="text/css" />
 
+<script src="/Public/admin/js/fileinput.min.js" type="text/javascript"></script>
 <div id="page-wrapper">
 
     <div class="container-fluid">
@@ -117,83 +113,59 @@
         <!-- Page Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">
-                    主页
-                    <small>总体信息展示</small>
-                </h1>
-
+                <h1 class="page-header">添加成果</h1>
+                <ol class="breadcrumb">
+                    <li> <i class="fa fa-dashboard"></i>
+                        <a href="index.html">主页</a>
+                    </li>
+                    <li class="active"> <i class="fa fa-edit"></i>
+                        添加成果
+                    </li>
+                </ol>
             </div>
         </div>
         <!-- /.row -->
+        <form action="<?php echo U('addnews');?>" method="post" enctype="multipart/form-data">
+            <div class="row">
 
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="alert alert-info alert-dismissable">
-                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> <i class="fa fa-info-circle"></i> <strong>系统介绍</strong>
-                    该系统采用LAMP环境搭建，具体信息见下表：
-                    <br/>
-                    <table style = "border:1px solid gray;width:100%;">
-                        <tr>
-                            <th>服务器地址</th>
-                            <th>语言</th>
-                            <th>数据库</th>
-                            <th>服务器环境</th>
-                        </tr>
-                        <tr>
-                            <td>
-                                <?php echo $_SERVER['HTTP_HOST'],':',$_SERVER['SERVER_PORT'];?></td>
-                            <td>
-                                <?php echo php,PHP_VERSION;?></td>
-                            <td>Mysql</td>
-                            <td>
-                                <?php echo $_SERVER['SERVER_SOFTWARE'];?></td>
-                        </tr>
-                    </table>
+                <div class="col-lg-3">
+                    <label class="control-label">成果标题</label>
+                    <input type="text" placeholder="标题" name='title' class="form-control" value=""></div>
+                <div class="col-lg-6">
+                    <label class="control-label">压缩包上传</label>
+                    <input id="file-0a" class="file" type="file" multiple data-min-file-count="0" name='infopic'>
+                    <br></div>
+                <div class="col-lg-3">
+                    <label class="control-label">成果类别</label>
+                    <select class="form-control" name="class" id="sel-opt">
+                        <?php foreach($arr as $k=> $v):?>
+                        <option value="<?php echo ($v["id"]); ?>"><?php echo ($v["class_name"]); ?></option>
+                        <?php endforeach;?></select>
                 </div>
             </div>
-        </div>
-        <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-12">
 
-        <div class="row">
-            <div class="col-lg-6 col-md-6">
-                <div class="panel panel-primary">
-                    <div class="panel-heading">
-                        <div class="row">
-                            <div class="col-xs-3"> <i class="fa fa-comments fa-5x"></i>
-                            </div>
-                            <div class="col-xs-9 text-right">
-                                <div class="huge">26</div>
-                                <div>新闻数</div>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- <script id="container" name="content" type="text/plain"></script> -->
+
+                    <button type="submit" class="btn btn-default">提交修改</button>
 
                 </div>
-            </div>
-            <div class="col-lg-6 col-md-6">
-                <div class="panel panel-green">
-                    <div class="panel-heading">
-                        <div class="row">
-                            <div class="col-xs-3">
-                                <i class="fa fa-tasks fa-5x"></i>
-                            </div>
-                            <div class="col-xs-9 text-right">
-                                <div class="huge">12</div>
-                                <div>成果展示数</div>
-                            </div>
-                        </div>
-                    </div>
 
-                </div>
             </div>
-
-        </div>
+        </form>
         <!-- /.row --> </div>
     <!-- /.container-fluid -->
 
 </div>
-<!-- /#page-wrapper -->
 
+<!-- 配置文件 -->
+<script type="text/javascript" src="/Public/admin/ueditor.config.js"></script>
+<!-- 编辑器源码文件 -->
+<script type="text/javascript" src="/Public/admin/ueditor.all.js"></script>
+<!-- 实例化编辑器 -->
+<!-- <script type="text/javascript">var ue = UE.getEditor('container');</script>
+ --><!-- <script type="text/javascript">$("option[value=<?php echo ($arr["class_id"]); ?>]").attr("selected",true);</script> -->
 </div>
     <!-- /#wrapper -->
 
