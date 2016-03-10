@@ -73,9 +73,17 @@
                     <li>
                         <a href="<?php echo U(showlabinfo);?>"><i class="fa fa-fw fa-table"></i> 实验室概况</a>
                     </li>
-                    <li>
-                        <a href="<?php echo U('showachieve');?>"><i class="fa fa-fw fa-table"></i> 成果展示</a>
-                    </li>
+                    <!-- <li>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> 成果管理 <i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="demo" class="collapse">
+                            <li>
+                                <a href="<?php echo U('Result/resultlist');?>">成果列表</a>
+                            </li>
+                            <li>
+                                <a href="<?php echo U('Result/addresult');?>">添加成果</a>
+                            </li>
+                        </ul>
+                    </li> -->
                     <li>
                         <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> 新闻管理 <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="demo" class="collapse">
@@ -133,7 +141,7 @@
                                 <td><?php echo ($v["type"]); ?></td>
                                 <td>
                                     <a href="<?php echo U('editnews',array('id' => $v['id']));?>" class='btn-danger'> 编辑</a>
-                                    <a href="<?php echo U('delnews',array('id' => $v['id']));?>" class='btn-danger'> 删除</a>
+                                    <span  class='btn-danger' id="delete"> 删除</span>
                                     <?php if($v['tag']==0):?>
                                     <a href="<?php echo U('setshow',array('id' => $v['id']));?>" class='btn-danger'> 设置展示</a>
                                 <?php else:?>
@@ -152,6 +160,31 @@
         </div>
     </div>
 </div>
+<script>
+$(document).ready(function(){
+    $("#delete").click(function(){
+            alert("hah");
+            $.ajax({
+                url:<?php echo '"'.U('delnews',array('id' => $v['id'])).'"';?>,
+                type:"GET",
+                success:function(data){
+                    if(data===1){
+                        alert("删除成功");
+                        $("#delete").parent().parent().remove();
+
+                    }else{
+                        alert("删除失败");
+                    }
+                }
+
+            });  
+        });
+});
+    
+    
+
+    
+</script>
 </div>
     <!-- /#wrapper -->
 

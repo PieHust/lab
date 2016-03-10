@@ -37,7 +37,7 @@
                                 <td>{$v.type}</td>
                                 <td>
                                     <a href="{:U('editnews',array('id' => $v['id']))}" class='btn-danger'> 编辑</a>
-                                    <a href="{:U('delnews',array('id' => $v['id']))}" class='btn-danger'> 删除</a>
+                                    <span  class='btn-danger' id="delete"> 删除</span>
                                     <?php if($v['tag']==0):?>
                                     <a href="{:U('setshow',array('id' => $v['id']))}" class='btn-danger'> 设置展示</a>
                                 <?php else:?>
@@ -56,3 +56,28 @@
         </div>
     </div>
 </div>
+<script>
+$(document).ready(function(){
+    $("#delete").click(function(){
+            //alert("hah");
+            $.ajax({
+                url:<?php echo '"'.U('delnews',array('id' => $v['id'])).'"';?>,
+                type:"GET",
+                success:function(data){
+                    if(data===1){
+                        alert("删除成功");
+                        $("#delete").parent().parent().remove();
+
+                    }else{
+                        alert("删除失败");
+                    }
+                }
+
+            });  
+        });
+});
+    
+    
+
+    
+</script>

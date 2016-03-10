@@ -1,0 +1,23 @@
+[ 2016-03-10T10:04:48+08:00 ] ::1 /index.php/index/delnews/4
+ERR: 参数错误或者未定义:id
+
+[ 2016-03-10T10:21:32+08:00 ] ::1 /index.php/index/delnews/4
+ERR: 参数错误或者未定义:id
+
+[ 2016-03-10T10:21:41+08:00 ] ::1 /index.php/index/delnews/4
+ERR: 参数错误或者未定义:id
+
+[ 2016-03-10T10:40:28+08:00 ] ::1 /index.php/Index/delnews/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003509s ]
+SQL: SHOW COLUMNS FROM `lab_news` [ RunTime:0.0468s ]
+SQL: DELETE FROM `lab_news` WHERE ( id=1 ) [ RunTime:0.0048s ]
+
+[ 2016-03-10T10:41:13+08:00 ] ::1 /index.php/Index/delnews/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005152s ]
+SQL: SHOW COLUMNS FROM `lab_news` [ RunTime:0.0383s ]
+SQL: DELETE FROM `lab_news` WHERE ( id=2 ) [ RunTime:0.0037s ]
+

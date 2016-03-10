@@ -139,9 +139,9 @@ class IndexController extends Controller {
         $news = M('news');
         $status = $news->where('id='.$id)->delete();
         if($status){
-            $this->ajaxReturn('ok');
+            $this->ajaxReturn(1);
         }
-        $this->ajaxReturn('error');
+        $this->ajaxReturn(0);
     }
 
     /**
