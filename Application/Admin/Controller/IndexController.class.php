@@ -65,9 +65,10 @@ class IndexController extends Controller {
      */
     public function editNews($id){
         $news = D('news');
-        $news_class = M('news_class');
-        $this->arr = $news->relation(true)->where('id='.$id)->find(1);
+        $news_class = M('newsClass');
+        $this->arr = $news->relation(true)->where('id='.$id)->find();
         $this->type = $news_class->select();
+       
         $this->display();
     }
 

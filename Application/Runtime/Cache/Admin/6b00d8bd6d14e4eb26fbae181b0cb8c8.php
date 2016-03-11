@@ -11,17 +11,18 @@
 
     <title>后台管理</title>
 
+
     <!-- Bootstrap Core CSS -->
-    <link href="/Public/admin/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/mlab/lab/Public/admin/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="/Public/admin/css/sb-admin.css" rel="stylesheet">
+    <link href="/mlab/lab/Public/admin/css/sb-admin.css" rel="stylesheet">
 
     <!-- Morris Charts CSS -->
-    <link href="/Public/admin/css/plugins/morris.css" rel="stylesheet">
+    <link href="/mlab/lab/Public/admin/css/plugins/morris.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="/Public/admin/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/mlab/lab/Public/admin/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,10 +30,15 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script src="/Public/admin/js/jquery.js"></script>
+    <script src="/mlab/lab/Public/admin/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="/Public/admin/js/bootstrap.min.js"></script>
+    <script src="/mlab/lab/Public/admin/js/bootstrap.min.js"></script>
+    <style>
+        *{
+            font-family: "微软雅黑";
+        }
+    </style>
 
 </head>
 
@@ -68,14 +74,14 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li class="active">
-                        <a href="index.html"><i class="fa fa-fw fa-dashboard"></i> 主页</a>
+                        <a href="<?php echo U('index/index');?>"><i class="fa fa-fw fa-dashboard"></i> 主页</a>
                     </li>
                     <li>
-                        <a href="<?php echo U(showlabinfo);?>"><i class="fa fa-fw fa-table"></i> 实验室概况</a>
+                        <a href="<?php echo U('index/showlabinfo');?>"><i class="fa fa-fw fa-table"></i> 实验室概况</a>
                     </li>
-                    <!-- <li>
-                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> 成果管理 <i class="fa fa-fw fa-caret-down"></i></a>
-                        <ul id="demo" class="collapse">
+                    <li>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#demo1"><i class="fa fa-fw fa-arrows-v"></i> 成果管理 <i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="demo1" class="collapse">
                             <li>
                                 <a href="<?php echo U('Result/resultlist');?>">成果列表</a>
                             </li>
@@ -83,15 +89,15 @@
                                 <a href="<?php echo U('Result/addresult');?>">添加成果</a>
                             </li>
                         </ul>
-                    </li> -->
+                    </li> 
                     <li>
                         <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> 新闻管理 <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="demo" class="collapse">
                             <li>
-                                <a href="<?php echo U('shownewslist');?>">文章列表</a>
+                                <a href="<?php echo U('index/shownewslist');?>">文章列表</a>
                             </li>
                             <li>
-                                <a href="<?php echo U('addnews');?>">添加新闻</a>
+                                <a href="<?php echo U('index/addnews');?>">添加新闻</a>
                             </li>
                         </ul>
                     </li>
@@ -103,9 +109,9 @@
 
 
         
-<link href="/Public/admin/css/fileinput.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/mlab/lab/Public/admin/css/fileinput.min.css" media="all" rel="stylesheet" type="text/css" />
 
-<script src="/Public/admin/js/fileinput.min.js" type="text/javascript"></script>
+<script src="/mlab/lab/Public/admin/js/fileinput.min.js" type="text/javascript"></script>
 <div id="page-wrapper">
 
     <div class="container-fluid">
@@ -160,9 +166,9 @@
 </div>
 
 <!-- 配置文件 -->
-<script type="text/javascript" src="/Public/admin/ueditor.config.js"></script>
+<script type="text/javascript" src="/mlab/lab/Public/admin/ueditor.config.js"></script>
 <!-- 编辑器源码文件 -->
-<script type="text/javascript" src="/Public/admin/ueditor.all.js"></script>
+<script type="text/javascript" src="/mlab/lab/Public/admin/ueditor.all.js"></script>
 <!-- 实例化编辑器 -->
 <script type="text/javascript">var ue = UE.getEditor('container');</script>
 <!-- <script type="text/javascript">$("option[value=<?php echo ($arr["class_id"]); ?>]").attr("selected",true);</script> -->
@@ -173,9 +179,9 @@
 
 
     <!-- Morris Charts JavaScript -->
-    <script src="/Public/admin/js/plugins/morris/raphael.min.js"></script>
-    <script src="/Public/admin/js/plugins/morris/morris.min.js"></script>
-    <script src="/Public/admin/js/plugins/morris/morris-data.js"></script>
+    <script src="/mlab/lab/Public/admin/js/plugins/morris/raphael.min.js"></script>
+    <script src="/mlab/lab/Public/admin/js/plugins/morris/morris.min.js"></script>
+    <script src="/mlab/lab/Public/admin/js/plugins/morris/morris-data.js"></script>
 
 </body>
 

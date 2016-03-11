@@ -11,6 +11,7 @@
 
     <title>后台管理</title>
 
+
     <!-- Bootstrap Core CSS -->
     <link href="/Public/admin/css/bootstrap.min.css" rel="stylesheet">
 
@@ -33,6 +34,11 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="/Public/admin/js/bootstrap.min.js"></script>
+    <style>
+        *{
+            font-family: "微软雅黑";
+        }
+    </style>
 
 </head>
 
@@ -68,22 +74,30 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li class="active">
-                        <a href="index.html"><i class="fa fa-fw fa-dashboard"></i> 主页</a>
+                        <a href="<?php echo U('index/index');?>"><i class="fa fa-fw fa-dashboard"></i> 主页</a>
                     </li>
                     <li>
-                        <a href="<?php echo U(showlabinfo);?>"><i class="fa fa-fw fa-table"></i> 实验室概况</a>
+                        <a href="<?php echo U('index/showlabinfo');?>"><i class="fa fa-fw fa-table"></i> 实验室概况</a>
                     </li>
                     <li>
-                        <a href="<?php echo U('showachieve');?>"><i class="fa fa-fw fa-table"></i> 成果展示</a>
-                    </li>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#demo1"><i class="fa fa-fw fa-arrows-v"></i> 成果管理 <i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="demo1" class="collapse">
+                            <li>
+                                <a href="<?php echo U('Result/resultlist');?>">成果列表</a>
+                            </li>
+                            <li>
+                                <a href="<?php echo U('Result/addresult');?>">添加成果</a>
+                            </li>
+                        </ul>
+                    </li> 
                     <li>
                         <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> 新闻管理 <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="demo" class="collapse">
                             <li>
-                                <a href="<?php echo U('shownewslist');?>">文章列表</a>
+                                <a href="<?php echo U('index/shownewslist');?>">文章列表</a>
                             </li>
                             <li>
-                                <a href="<?php echo U('addnews');?>">添加新闻</a>
+                                <a href="<?php echo U('index/addnews');?>">添加新闻</a>
                             </li>
                         </ul>
                     </li>

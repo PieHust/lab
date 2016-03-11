@@ -20,9 +20,9 @@ class ResultController extends Controller{
 		$show = M('show');
 		$status = $show->where('id='.$id)->delete();
 		if($status){	
-			$this->ajaxReturn("ok");
+			$this->ajaxReturn(1);
 		}else{
-			$this->ajaxReturn("error");
+			$this->ajaxReturn(0);
 		}
 	}
 

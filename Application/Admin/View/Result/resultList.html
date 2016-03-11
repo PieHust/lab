@@ -37,7 +37,7 @@
                                 <td>{$v.type}</td>
                                 <td>
                                     <a href="{:U('result/editresult',array('id' => $v['id']))}" class='btn-danger'> 编辑</a>
-                                    <a href="{:U('result/delresult',array('id' => $v['id']))}" class='btn-danger'> 删除</a>
+                                    <span ids ="{:U('result/delresult',array('id' => $v['id']))}" class='btn-danger delete'> 删除</span>
 
                                 </td>
                             </tr>
@@ -52,3 +52,32 @@
         </div>
     </div>
 </div>
+<script>
+$(document).ready(function(){
+
+    $(".delete").each(function(i){
+
+        $(this).click(function(){
+            $.ajax({
+                url:$('.delete').eq(i).attr('ids'),
+                type:"GET",
+                success:function(data){
+                    if(data === 1){
+                        alert("删除成功");
+                        $('.delete').eq(i).parent().parent().remove();
+                    }else{
+                        alert("删除失败");
+                    }
+                }
+
+            });
+  
+        });
+
+    });
+});
+    
+    
+
+    
+</script>

@@ -21,3 +21,28 @@ INFO: [ app_begin ] --END-- [ RunTime:0.005152s ]
 SQL: SHOW COLUMNS FROM `lab_news` [ RunTime:0.0383s ]
 SQL: DELETE FROM `lab_news` WHERE ( id=2 ) [ RunTime:0.0037s ]
 
+[ 2016-03-10T10:48:16+08:00 ] ::1 /index.php/Result/shownewslist.html
+ERR: 非法操作:shownewslist
+
+[ 2016-03-10T10:48:23+08:00 ] ::1 /index.php/Result/shownewslist.html
+ERR: 非法操作:shownewslist
+
+[ 2016-03-10T10:49:11+08:00 ] ::1 /index.php/Result/index.html
+ERR: 非法操作:index
+
+[ 2016-03-10T10:50:04+08:00 ] ::1 /index.php/Result/showlabinfo.html
+ERR: 非法操作:showlabinfo
+
+[ 2016-03-10T10:50:22+08:00 ] ::1 /index.php/Result/NAN.html
+ERR: 非法操作:NAN
+
+[ 2016-03-10T10:52:32+08:00 ] ::1 /index.php/result/editresult/id/1.html
+ERR: 模板不存在:./Application/Admin/View/Result/editresult.html
+
+[ 2016-03-10T11:03:26+08:00 ] ::1 /index.php/Index/delnews/id/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004555s ]
+SQL: SHOW COLUMNS FROM `lab_news` [ RunTime:0.0362s ]
+SQL: DELETE FROM `lab_news` WHERE ( id=3 ) [ RunTime:0.0038s ]
+
