@@ -147,7 +147,7 @@
                                 <td><?php echo ($v["type"]); ?></td>
                                 <td>
                                     <a href="<?php echo U('editnews',array('id' => $v['id']));?>" class='btn-danger'> 编辑</a>
-                                    <span  class='btn-danger' id="delete" 
+                                    <span  class='btn-danger delete' 
                                     ids="<?php echo U('delnews',array('id' => $v['id']));?>"> 删除</span>
                                     <?php if($v['tag']==0):?>
                                     <a href="<?php echo U('setshow',array('id' => $v['id']));?>" class='btn-danger'> 设置展示</a>
@@ -169,24 +169,27 @@
 </div>
 <script>
 $(document).ready(function(){
-    $("#delete").click(function(){
-            //alert("hah");
-            //var aurl = 
+
+    $(".delete").each(function(i){
+
+        $(this).click(function(){
             $.ajax({
-                url:$("#delete").attr("ids"),
+                url:$('.delete').eq(i).attr('ids'),
                 type:"GET",
                 success:function(data){
-                    if(data===1){
+                    if(data === 1){
                         alert("删除成功");
-                        $("#delete").parent().parent().remove();
-
+                        $('.delete').eq(i).parent().parent().remove();
                     }else{
                         alert("删除失败");
                     }
                 }
 
-            });  
+            });
+  
         });
+
+    });
 });
     
     
