@@ -6,6 +6,7 @@ class LoginController extends Controller{
 	
 	public function ajaxLogin() {
 		if(!IS_AJAX) $this->error("访问页面不存在");
+		$this->ajaxReturn(0);
 	}
 	
 	public function login() {

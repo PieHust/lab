@@ -1,0 +1,33 @@
+[ 2016-03-16T18:41:35+08:00 ] ::1 /mlab/lab/index.php/Result/addnews.html
+ERR: 非法操作:addnews
+
+[ 2016-03-16T18:41:55+08:00 ] ::1 /mlab/lab/index.php/Result/saveresult.html
+ERR: Call to undefined function Admin\Controller\　I()
+
+[ 2016-03-16T18:43:14+08:00 ] ::1 /mlab/lab/index.php/Result/saveresult.html
+ERR: Call to undefined function Admin\Controller\　I()
+
+[ 2016-03-16T18:43:42+08:00 ] ::1 /mlab/lab/index.php/Result/saveresult.html
+ERR: Call to undefined function Admin\Controller\　I()
+
+[ 2016-03-16T20:25:14+08:00 ] ::1 /mlab/lab/index.php/Result/saveresult.html
+ERR: Class 'Admin\Controller\ZipArchive' not found
+
+[ 2016-03-16T20:25:35+08:00 ] ::1 /mlab/lab/index.php/Result/saveresult.html
+ERR: Call to undefined function Admin\Controller\open()
+
+[ 2016-03-16T20:40:08+08:00 ] ::1 /mlab/lab/index.php/Result/Public/Uploads/1458132004/3d
+ERR: 非法操作:Public
+
+[ 2016-03-16T20:44:16+08:00 ] ::1 /mlab/lab/index.php/Result/saveresult.html
+ERR: Call to a member function add() on boolean
+
+[ 2016-03-16T20:47:52+08:00 ] ::1 /mlab/lab/index.php/Public/Uploads/1458132292/3d
+ERR: 无法加载控制器:Public
+
+[ 2016-03-16T20:48:53+08:00 ] ::1 /mlab/lab/index.php/Public/Uploads/1458132292/3d
+ERR: 无法加载控制器:Public
+
+[ 2016-03-16T20:49:54+08:00 ] ::1 /mlab/lab/index.php/Public/Uploads/1458132292/3d
+ERR: 无法加载控制器:Public
+

@@ -108,70 +108,89 @@
         </nav>
 
 
-        
-<!-- <link href="/mlab/lab/Public/admin/css/fileinput.min.css" media="all" rel="stylesheet" type="text/css" /> -->
-
-<!-- <script src="/mlab/lab/Public/admin/js/fileinput.min.js" type="text/javascript"></script> -->
-<div id="page-wrapper">
+        <div id="page-wrapper">
 
     <div class="container-fluid">
 
         <!-- Page Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">添加成果</h1>
+                <h1 class="page-header">成果展示</h1>
                 <ol class="breadcrumb">
                     <li> <i class="fa fa-dashboard"></i>
-                        <a href="index.html">主页</a>
+                        <a href="<?php echo U('index/index');?>">主页</a>
                     </li>
-                    <li class="active"> <i class="fa fa-edit"></i>
-                        添加成果
+                    <li class="active"> <i class="fa fa-table"></i>
+                        成果展示
                     </li>
                 </ol>
             </div>
         </div>
-        <!-- /.row -->
-        <form action="<?php echo U('saveresult');?>" method="post" enctype="multipart/form-data">
-            <div class="row">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>成果列表</h2>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>标题</th>
+                                <th>地址</th>
+                                <th>类别</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php foreach($list as $k => $v):?>
+                            <tr>
+                                <td><?php echo ($v["title"]); ?></td>
+                                <td><a href="/mlab/lab/index.php/<?php echo ($v["url"]); ?>"><?php echo ($v["url"]); ?></a></td>
+                                <td><?php echo ($v["type"]); ?></td>
+                                <td>
+                                    <a href="<?php echo U('result/editresult',array('id' => $v['id']));?>" class='btn-danger'> 编辑</a>
+                                    <span ids ="<?php echo U('result/delresult',array('id' => $v['id']));?>" class='btn-danger delete'> 删除</span>
 
-                <div class="col-lg-3">
-                    <label class="control-label">成果标题</label>
-                    <input type="text" placeholder="标题" name='title' class="form-control" value=""></div>
-                <div class="col-lg-6">
-                    <label class="control-label">压缩包上传</label>
-                    <input class="file" type="file" multiple name='infozip'>
-                    <br></div>
-                <div class="col-lg-3">
-                    <label class="control-label">成果类别</label>
-                    <select class="form-control" name="class" id="sel-opt">
-                        <?php foreach($arr as $k=> $v):?>
-                        <option value="<?php echo ($v["id"]); ?>"><?php echo ($v["class_name"]); ?></option>
-                        <?php endforeach;?></select>
+                                </td>
+                            </tr>
+                        <?php endforeach;?>
+                           
+                              
+                        </tbody>
+                    </table>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-
-                    <!-- <script id="container" name="content" type="text/plain"></script> -->
-
-                    <button type="submit" class="btn btn-default">提交修改</button>
-
-                </div>
-
-            </div>
-        </form>
-        <!-- /.row --> </div>
-    <!-- /.container-fluid -->
-
+            
+        </div>
+    </div>
 </div>
+<script>
+$(document).ready(function(){
 
-<!-- 配置文件 -->
-<script type="text/javascript" src="/mlab/lab/Public/admin/ueditor.config.js"></script>
-<!-- 编辑器源码文件 -->
-<script type="text/javascript" src="/mlab/lab/Public/admin/ueditor.all.js"></script>
-<!-- 实例化编辑器 -->
-<!-- <script type="text/javascript">var ue = UE.getEditor('container');</script>
- --><!-- <script type="text/javascript">$("option[value=<?php echo ($arr["class_id"]); ?>]").attr("selected",true);</script> -->
+    $(".delete").each(function(i){
+
+        $(this).click(function(){
+            $.ajax({
+                url:$('.delete').eq(i).attr('ids'),
+                type:"GET",
+                success:function(data){
+                    if(data === 1){
+                        alert("删除成功");
+                        $('.delete').eq(i).parent().parent().remove();
+                    }else{
+                        alert("删除失败");
+                    }
+                }
+
+            });
+  
+        });
+
+    });
+});
+    
+    
+
+    
+</script>
 </div>
     <!-- /#wrapper -->
 

@@ -134,6 +134,23 @@ span {
 					$(this).next().next().html('');
 					validate.password = true;
 				}
+				
+				$.post({
+					url:<?='"'.U('login/ajaxlogin').'"'?>,
+					type:"POST",
+					data:{
+						username:$('input[name=username]',form).val(),
+						password:$(this).val(),
+					},
+					success:function(status){
+						if(status){
+							$(this).next().next().html("用户名或密码错误").addClass('error');
+						}else{
+							$(this).next().next().html("");
+							validate.password = true;
+						}				
+					}
+				});
 			})
 
 			$('input[name=verify]',form).blur(function(){

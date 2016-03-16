@@ -33,7 +33,7 @@
                             <?php foreach($list as $k => $v):?>
                             <tr>
                                 <td>{$v.title}</td>
-                                <td>{$v.url}</td>
+                                <td><a href="__ROOT__/{$v.url}">{$v.url}</a></td>
                                 <td>{$v.type}</td>
                                 <td>
                                     <a href="{:U('result/editresult',array('id' => $v['id']))}" class='btn-danger'> 编辑</a>

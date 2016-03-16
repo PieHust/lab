@@ -11,3 +11,45 @@ ERR: 非法操作:verify.html
 [ 2016-03-14T20:45:34+08:00 ] ::1 /mlab/lab/index.php/Login/NAN.html
 ERR: 非法操作:NAN
 
+[ 2016-03-14T21:12:54+08:00 ] ::1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003684s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-03-14T21:14:08+08:00 ] ::1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003603s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-03-14T21:14:30+08:00 ] ::1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005911s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-03-14T21:15:02+08:00 ] ::1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004349s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-03-14T21:17:10+08:00 ] ::1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003649s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-03-14T21:17:35+08:00 ] ::1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005284s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-03-14T21:19:32+08:00 ] ::1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003435s ]
+ERR: 非法操作:[object Object]
+

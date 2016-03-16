@@ -143,7 +143,7 @@
                             <?php foreach($list as $k => $v):?>
                             <tr>
                                 <td><?php echo ($v["title"]); ?></td>
-                                <td><?php echo ($v["url"]); ?></td>
+                                <td><a href="/mlab/lab/<?php echo ($v["url"]); ?>"><?php echo ($v["url"]); ?></a></td>
                                 <td><?php echo ($v["type"]); ?></td>
                                 <td>
                                     <a href="<?php echo U('result/editresult',array('id' => $v['id']));?>" class='btn-danger'> 编辑</a>

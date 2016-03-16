@@ -21,7 +21,7 @@
             </div>
         </div>
         <!-- /.row -->
-        <form action="{:U('addnews')}" method="post" enctype="multipart/form-data">
+        <form action="{:U('saveresult')}" method="post" enctype="multipart/form-data">
             <div class="row">
 
                 <div class="col-lg-3">
@@ -29,7 +29,7 @@
                     <input type="text" placeholder="标题" name='title' class="form-control" value=""></div>
                 <div class="col-lg-6">
                     <label class="control-label">压缩包上传</label>
-                    <input class="file" type="file"  name='infopic'>
+                    <input class="file" type="file" multiple name='infozip'>
                     <br></div>
                 <div class="col-lg-3">
                     <label class="control-label">成果类别</label>
