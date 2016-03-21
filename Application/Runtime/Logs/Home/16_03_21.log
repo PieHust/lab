@@ -1,0 +1,18 @@
+[ 2016-03-21T19:41:48+08:00 ] ::1 /mlab/lab/
+ERR: Call to a member function select() on unknown
+
+[ 2016-03-21T19:44:18+08:00 ] ::1 /mlab/lab/
+ERR: syntax error, unexpected ')'
+
+[ 2016-03-21T19:44:46+08:00 ] ::1 /mlab/lab/
+ERR: syntax error, unexpected ')'
+
+[ 2016-03-21T19:45:09+08:00 ] ::1 /mlab/lab/
+ERR: syntax error, unexpected ')'
+
+[ 2016-03-21T19:50:28+08:00 ] ::1 /mlab/lab/
+ERR: syntax error, unexpected '$this' (T_VARIABLE)
+
+[ 2016-03-21T20:01:20+08:00 ] ::1 /mlab/lab/index.php/Home/index/news.html
+ERR: 非法操作:news
+

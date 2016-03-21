@@ -26,7 +26,7 @@ class ResultController extends Controller{
 		}
 	}
 
-	public function saveResult(){
+	public function saveResult($id=''){
 		if(IS_POST){
 			$time = time();
 			if(!empty($file=$_FILES['infozip']['name'])){
@@ -41,16 +41,23 @@ class ResultController extends Controller{
 					$zipPath = "Public/Uploads/".$time.'/'.substr($file, 0,strlen($file)-4);
 				}
 			}else{
-				$zipPath = '';
+				$zipPath='';
 			}
 			$data = array(
 				'title' => I('post.title'),
 				'class_id' =>I('post.class'),
-				'url' => $zipPath 
 				);
-			
+			if(!empty($zipPath)){
+				$data['url'] = $zipPath;
+			}
 			$show = M('show');
-			$show->data($data)->add();
+
+			if(!empty($id)){
+				$show->where('id='.$id)->setField($data);
+			}
+			else{
+				$show->data($data)->add();
+			}
 			$this->redirect('resultList');
 		}
 		else{
@@ -60,6 +67,13 @@ class ResultController extends Controller{
 	}
 
 	public function editResult($id){
+		$show = M('show');
+		$this->arr1 = $show->where("id=".$id)->find();
+		$showClass = M('showClass');
+		$this->arr = $showClass->select();
+		//print_r($this->arr);
+		//die("get");
+		$this->id = $id;
 		$this->display();
 	}
 

@@ -1,0 +1,13 @@
+[ 2016-03-17T11:30:18+08:00 ] ::1 /mlab/lab/index.php/result/editresult/id/1.html
+ERR: 模板不存在:./Application/Admin/View/Result/editresult.html
+
+[ 2016-03-17T11:31:47+08:00 ] ::1 /mlab/lab/index.php/result/delresult/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002768s ]
+SQL: SHOW COLUMNS FROM `lab_show` [ RunTime:0.0114s ]
+SQL: DELETE FROM `lab_show` WHERE ( id=1 ) [ RunTime:0.0074s ]
+
+[ 2016-03-17T11:32:41+08:00 ] ::1 /mlab/lab/index.php/Result/index.html
+ERR: 非法操作:index
+

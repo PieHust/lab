@@ -31,3 +31,6 @@ ERR: 无法加载控制器:Public
 [ 2016-03-16T20:49:54+08:00 ] ::1 /mlab/lab/index.php/Public/Uploads/1458132292/3d
 ERR: 无法加载控制器:Public
 
+[ 2016-03-16T21:59:20+08:00 ] ::1 /mlab/lab/index.php/result/editresult/id/1.html
+ERR: 模板不存在:./Application/Admin/View/Result/editresult.html
+

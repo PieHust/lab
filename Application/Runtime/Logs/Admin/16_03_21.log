@@ -1,0 +1,27 @@
+[ 2016-03-21T18:57:10+08:00 ] ::1 /mlab/lab/index.php/Result/saveresult.html
+ERR: 参数错误或者未定义:id
+
+[ 2016-03-21T18:57:27+08:00 ] ::1 /mlab/lab/index.php/Result/saveresult.html
+ERR: 参数错误或者未定义:id
+
+[ 2016-03-21T18:57:51+08:00 ] ::1 /mlab/lab/index.php/Result/saveresult.html
+ERR: 参数错误或者未定义:id
+
+[ 2016-03-21T18:58:43+08:00 ] ::1 /mlab/lab/index.php/Result/saveresult.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `lab_show` SET `title`='我是测试成果',`class_id`='1',`url`='Public/Uploads/1458557922/index' WHERE ( id= )
+
+[ 2016-03-21T19:09:11+08:00 ] ::1 /mlab/lab/index.php/Result/saveresult/id/2.html
+ERR: syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+
+[ 2016-03-21T19:13:04+08:00 ] ::1 /mlab/lab/index.php/result/delresult/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003738s ]
+SQL: SHOW COLUMNS FROM `lab_show` [ RunTime:0.0099s ]
+SQL: DELETE FROM `lab_show` WHERE ( id=1 ) [ RunTime:0.0035s ]
+
+[ 2016-03-21T20:03:47+08:00 ] ::1 /mlab/lab/index.php/Admin/Index/addnews.html
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `lab_news` (`title`,`class_id`,`content`,`pic`,`date`) VALUES ('测试新闻3','1',NULL,'./Public/Uploads/2016-03-21/1458561827.jpg','1458561827')
+
