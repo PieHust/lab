@@ -1,0 +1,7 @@
+[ 2016-03-22T15:06:23+08:00 ] ::1 /mlab/lab/index.php/Admin/result/delresult/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003192s ]
+SQL: SHOW COLUMNS FROM `lab_show` [ RunTime:0.0129s ]
+SQL: DELETE FROM `lab_show` WHERE ( id=2 ) [ RunTime:0.0039s ]
+
