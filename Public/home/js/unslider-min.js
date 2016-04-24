@@ -12,8 +12,8 @@
             },
 //            nav: !0,
             arrows: {
-                prev: '<a class="' + e._ + '-arrow prev"><img src="'+url+'prev.png"></a>',
-                next: '<a class="' + e._ + '-arrow next"><img src="'+url+'next.png"></a>'
+                prev: '<a class="' + e._ + '-arrow prev"><img src="'+publicPath+'/home/image/prev.png"></a>',
+                next: '<a class="' + e._ + '-arrow next"><img src="'+publicPath+'/home/image/next.png"></a>'
             },
             animation: "horizontal",
             selectors: {

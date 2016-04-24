@@ -65,7 +65,7 @@ span {
 	<div class='login'>
 		<h2 style="text-align: center; margin-top: 10px;">后台登录界面</h2>
 		<br />
-		<form action="{:U('login/login')}" method="post">
+		<form action="{:U('login/checkLogin')}" method="post">
 			<label>用户名</label>
 			<input type="text" name="username" />
 			<br>
@@ -100,7 +100,7 @@ span {
 			$('#verify').click(function(){
 				$(this).attr('src',"__APP__"+"/login/verify/"+Math.random());
 			});
-			var form = $('form');
+			/*var form = $('form');
 			form.submit(function(){
 				console.log(1);
 				if(validate.username&&validate.password&&validate.verify){
@@ -111,7 +111,7 @@ span {
 				$('input[name=verify]',form).trigger('blur');
 				return false;
 			});
-
+	
 			$('input[name=username]',form).blur(function(){
 			
 				if($.trim($(this).val())==''){
@@ -124,7 +124,7 @@ span {
 					validate.username = true;
 				}
 			})
-
+	
 			$('input[name=password]',form).blur(function(){
 				if($.trim($(this).val())==''){
 					var msg = "密码不能为空";
@@ -152,7 +152,7 @@ span {
 					}
 				});
 			})
-
+	
 			$('input[name=verify]',form).blur(function(){
 				if($.trim($(this).val())==''){
 					var msg = "验证码不能为空";
@@ -162,7 +162,7 @@ span {
 					$(this).next().next().next().html('');
 					validate.verify = true;
 				}
-			})
+			})*/
 		});
 	</script>
 </body>

@@ -1,0 +1,510 @@
+[ 2016-04-17T16:43:27+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T16:47:56+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+
+[ 2016-04-17T16:48:04+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+
+[ 2016-04-17T16:49:05+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T16:49:06+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T16:55:46+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T16:55:46+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T16:59:34+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:02:45+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/index/index
+ERR: 非法操作:index
+
+[ 2016-04-17T17:02:54+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/index/index
+ERR: 非法操作:index
+
+[ 2016-04-17T17:03:37+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:03:37+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:03:38+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001440s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:03:39+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:03:40+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:03:44+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:03:46+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:03:48+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:03:48+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:03:48+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:03:49+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:03:49+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:03:49+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:04:24+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:04:29+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:05:01+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+
+[ 2016-04-17T17:10:35+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/login/status/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `lab_admin` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `lab_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant post - assumed 'post' /opt/lampp/htdocs/mlab/lab/Application/Admin/Controller/LoginController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' /opt/lampp/htdocs/mlab/lab/Application/Admin/Controller/LoginController.class.php 第 21 行.
+
+[ 2016-04-17T17:10:41+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/login/status/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `lab_admin` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `lab_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant post - assumed 'post' /opt/lampp/htdocs/mlab/lab/Application/Admin/Controller/LoginController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' /opt/lampp/htdocs/mlab/lab/Application/Admin/Controller/LoginController.class.php 第 21 行.
+
+[ 2016-04-17T17:10:43+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/login/status/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `lab_admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lab_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant post - assumed 'post' /opt/lampp/htdocs/mlab/lab/Application/Admin/Controller/LoginController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' /opt/lampp/htdocs/mlab/lab/Application/Admin/Controller/LoginController.class.php 第 21 行.
+
+[ 2016-04-17T17:11:31+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/login/status/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `lab_admin` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `lab_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant post - assumed 'post' /opt/lampp/htdocs/mlab/lab/Application/Admin/Controller/LoginController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' /opt/lampp/htdocs/mlab/lab/Application/Admin/Controller/LoginController.class.php 第 21 行.
+
+[ 2016-04-17T17:11:58+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/login/status/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+SQL: SHOW COLUMNS FROM `lab_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lab_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant post - assumed 'post' /opt/lampp/htdocs/mlab/lab/Application/Admin/Controller/LoginController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' /opt/lampp/htdocs/mlab/lab/Application/Admin/Controller/LoginController.class.php 第 21 行.
+
+[ 2016-04-17T17:11:58+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/login/status/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/index/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `lab_admin` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `lab_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant post - assumed 'post' /opt/lampp/htdocs/mlab/lab/Application/Admin/Controller/LoginController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' /opt/lampp/htdocs/mlab/lab/Application/Admin/Controller/LoginController.class.php 第 21 行.
+
+[ 2016-04-17T17:13:52+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:13:56+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:14:59+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:15:01+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:15:02+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/Index/index
+ERR: 非法操作:Index
+
+[ 2016-04-17T17:15:18+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/Index/index
+ERR: 非法操作:Index
+
+[ 2016-04-17T17:15:25+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:15:29+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:15:41+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:15:41+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:17:27+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:17:37+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:17:47+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:17:48+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:17:58+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:17:58+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:18:13+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:18:13+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:18:23+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:18:26+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:19:13+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:19:14+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:19:36+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:19:36+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:19:53+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:19:53+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:20:03+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:20:03+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:20:24+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:20:24+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:21:26+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:22:06+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:22:37+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:23:43+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:23:43+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/[object%20Object]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+ERR: 非法操作:[object Object]
+
+[ 2016-04-17T17:32:02+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/Index/index
+ERR: 非法操作:Index
+
+[ 2016-04-17T17:32:05+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/Index/index
+ERR: 非法操作:Index
+
+[ 2016-04-17T17:32:07+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/Index/index
+ERR: 非法操作:Index
+
+[ 2016-04-17T17:32:10+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/Index/index
+ERR: 非法操作:Index
+
+[ 2016-04-17T17:32:12+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/Index/index
+ERR: 非法操作:Index
+
+[ 2016-04-17T17:32:14+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/Index/index
+ERR: 非法操作:Index
+
+[ 2016-04-17T17:32:16+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/Index/index
+ERR: 非法操作:Index
+
+[ 2016-04-17T17:32:18+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/Index/index
+ERR: 非法操作:Index
+
+[ 2016-04-17T17:32:19+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/Index/index
+ERR: 非法操作:Index
+
+[ 2016-04-17T17:32:21+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/Index/index
+ERR: 非法操作:Index
+
+[ 2016-04-17T17:32:22+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/Index/index
+ERR: 非法操作:Index
+
+[ 2016-04-17T17:32:24+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/Index/index
+ERR: 非法操作:Index
+
+[ 2016-04-17T17:32:32+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/Index/index
+ERR: 非法操作:Index
+
+[ 2016-04-17T17:32:33+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/Index/index
+ERR: 非法操作:Index
+
+[ 2016-04-17T17:33:00+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/Index/index
+ERR: 非法操作:Index
+
+[ 2016-04-17T17:33:10+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/Index/index
+ERR: 非法操作:Index
+
+[ 2016-04-17T17:33:13+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/Index/index
+ERR: 非法操作:Index
+
+[ 2016-04-17T17:33:15+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/Index/index
+ERR: 非法操作:Index
+
+[ 2016-04-17T17:33:18+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/Index/index
+ERR: 非法操作:Index
+
+[ 2016-04-17T17:33:20+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/Index/index
+ERR: 非法操作:Index
+
+[ 2016-04-17T17:33:21+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/Index/index
+ERR: 非法操作:Index
+
+[ 2016-04-17T17:33:23+08:00 ] 127.0.0.1 /mlab/lab/index.php/login/Index/index
+ERR: 非法操作:Index
+
+[ 2016-04-17T17:39:36+08:00 ] 127.0.0.1 /mlab/lab/index.php/mlab/lab/index.php/index/index.html.html
+ERR: 无法加载控制器:Mlab
+
+[ 2016-04-17T17:40:06+08:00 ] 127.0.0.1 /mlab/lab/index.php/mlab/lab/index.php/index/index.html.html
+ERR: 无法加载控制器:Mlab
+
+[ 2016-04-17T17:40:23+08:00 ] 127.0.0.1 /mlab/lab/index.php/mlab/lab/index.php/admin/Index/index.html.html
+ERR: 无法加载控制器:Mlab
+
+[ 2016-04-17T17:41:19+08:00 ] 127.0.0.1 /mlab/lab/index.php/mlab/lab/index.php/admin/Index/index.html.html
+ERR: 无法加载控制器:Mlab
+
+[ 2016-04-17T17:41:27+08:00 ] 127.0.0.1 /mlab/lab/index.php/mlab/lab/index.php/Index/index.html.html
+ERR: 无法加载控制器:Mlab
+
+[ 2016-04-17T17:42:28+08:00 ] 127.0.0.1 /mlab/lab/index.php/mlab/lab/index.php/Index/index.html.html
+ERR: 无法加载控制器:Mlab
+
+[ 2016-04-17T17:42:29+08:00 ] 127.0.0.1 /mlab/lab/index.php/mlab/lab/index.php/Index/index.html.html
+ERR: 无法加载控制器:Mlab
+
+[ 2016-04-17T17:42:46+08:00 ] 127.0.0.1 /mlab/lab/index.php/mlab/lab/index.php/Index/index.html.html
+ERR: 无法加载控制器:Mlab
+
+[ 2016-04-17T18:10:34+08:00 ] 127.0.0.1 /mlab/lab/index.php/mlab/lab/index.php/Index/index.html.html
+ERR: 无法加载控制器:Mlab
+
+[ 2016-04-17T18:10:40+08:00 ] 127.0.0.1 /mlab/lab/index.php/mlab/lab/index.php/Index/index.html.html
+ERR: 无法加载控制器:Mlab
+
+[ 2016-04-17T18:11:08+08:00 ] 127.0.0.1 /mlab/lab/index.php/mlab/lab/index.php/Index/index.html.html
+ERR: 无法加载控制器:Mlab
+
+[ 2016-04-17T18:11:23+08:00 ] 127.0.0.1 /mlab/lab/index.php/mlab/lab/index.php/Admin/Index/index.html.html
+ERR: 无法加载控制器:Mlab
+
+[ 2016-04-17T18:12:39+08:00 ] 127.0.0.1 /mlab/lab/index.php/mlab/labadmin/index/index.html
+ERR: 无法加载控制器:Mlab
+

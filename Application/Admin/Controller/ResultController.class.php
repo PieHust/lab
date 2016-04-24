@@ -2,7 +2,7 @@
 namespace Admin\Controller;
 use Think\Controller;
 
-class ResultController extends Controller{
+class ResultController extends CommonController{
 
 	public function resultList(){
 		$show = D('show');

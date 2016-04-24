@@ -1,10 +1,12 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
-class IndexController extends Controller {
+class IndexController extends CommonController {
 
+   
     public function index(){
-
+        $this->name = $_SESSION['name'];
+        print_r($_SESSION['name']);
     	$this->display();
     }
 

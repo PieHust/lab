@@ -13,4 +13,10 @@ class IndexController extends Controller {
     	$this->news_show = $news->where($map)->limit(3)->select();
         $this->display();
     }
+
+
+    public function index1()
+    {
+        $this->display();
+    }
 }
