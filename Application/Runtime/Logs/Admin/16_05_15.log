@@ -1,0 +1,11 @@
+[ 2016-05-15T19:51:06+08:00 ] 127.0.0.1 /mlab/lab/index.php/Admin/Index/addnews.html
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `lab_news` (`title`,`class_id`,`content`,`pic`,`date`) VALUES ('','1',NULL,'','1463313066')
+
+[ 2016-05-15T19:51:47+08:00 ] 127.0.0.1 /mlab/lab/index.php/Admin/Index/delnews/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `lab_news` [ RunTime:0.0014s ]
+SQL: DELETE FROM `lab_news` WHERE ( id=2 ) [ RunTime:0.0056s ]
+

@@ -56,7 +56,7 @@ class IndexController extends CommonController {
         $this->list = $news->relation(true)->select();
         //print_r($this->list);
         //die();
-        $this->display();
+        $this->display('shownewslist');
 
     }
 
@@ -171,7 +171,7 @@ class IndexController extends CommonController {
         $upload = new \Think\Upload();// 实例化上传类
         $upload->maxSize   =     3145728 ;// 设置附件上传大小
         $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型    
-        $upload->rootPath  =      './Public/Uploads/'; // 设置附件上传目录  
+        $upload->rootPath  =      'Public/Uploads/'; // 设置附件上传目录  
         $upload->saveName = 'time';
         $info   =   $upload->uploadOne($_FILES[$name]);    
         if(!$info) {// 上传错误提示错误信息        

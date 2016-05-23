@@ -23,9 +23,9 @@
 	</div>
 	<div id="nav">
 		<ul>
-			<li><a href="">首页</a></li>
-			<li><a href="">新闻公告</a></li>
-			<li><a href="">成果展示</a></li>
+			<li><a href="{:U('index/index')}">首页</a></li>
+			<li><a href="{:U('index/news')}">新闻公告</a></li>
+			<li><a href="{:U('index/result')}">成果展示</a></li>
 			<li><a href="">在线培训</a></li>
 			<li><a href="">在线服务</a></li>
 		</ul>
@@ -33,9 +33,10 @@
 	<div id="slider">
 		<div class="slider-box">
             <ul>
-                <li><img src="2.jpg" alt="" height="500px" width="100%"></li>
-                <li><img src="3.jpg" alt="" height="500px" width="100%"></li>
-                <li><img src="4.jpg" alt="" height="500px" width="100%"></li>
+	            <?php foreach($news_show as $k=>$v):?>
+	                <li><img src="{$v.pic}" alt="{$v.title}" height="500px" width="100%"></li>
+	            <?php endforeach;?>
+
             </ul>
 	    </div>
 	</div>
@@ -44,38 +45,13 @@
 			<h2>新闻</h2>
 			<div class="more"><a href="">更多>>></a></div>
 			<ul>
-				<li>
-					<div class="post-title"><a href="">重点实验室要闻重点实验室要闻</a></div>
-					<div class="post-time">2016-4-7</div>
-				</li>
-				<li>
-					<div class="post-title"><a href="">重点实验室要闻重点实验室要闻</a></div>
-					<div class="post-time">2016-4-7</div>
-				</li>
-				<li>
-					<div class="post-title"><a href="">重点实验室要闻重点实验室要闻</a></div>
-					<div class="post-time">2016-4-7</div>
-				</li>
-				<li>
-					<div class="post-title"><a href="">重点实验室要闻重点实验室要闻</a></div>
-					<div class="post-time">2016-4-7</div>
-				</li>
-				<li>
-					<div class="post-title"><a href="">重点实验室要闻重点实验室要闻</a></div>
-					<div class="post-time">2016-4-7</div>
-				</li>
-				<li>
-					<div class="post-title"><a href="">重点实验室要闻重点实验室要闻</a></div>
-					<div class="post-time">2016-4-7</div>
-				</li>
-				<li>
-					<div class="post-title"><a href="">重点实验室要闻重点实验室要闻</a></div>
-					<div class="post-time">2016-4-7</div>
-				</li>
-				<li>
-					<div class="post-title"><a href="">重点实验室要闻重点实验室要闻</a></div>
-					<div class="post-time">2016-4-7</div>
-				</li>
+				<?php foreach($news as $k=>$v):?>
+	        <li>
+	            <div class="post-title" ><a>{$v.title}</a></div>
+                <div class="post-time">{:date("Y-m-d",$v['date'])}</div>
+	        </li>
+	       <?php endforeach;?>
+				
 			</ul>
 		</div>
 		<div class="info">
@@ -88,12 +64,17 @@
 			<h2>成果展示</h2>
 			<div class="more"><a href="">更多>>></a></div>
 			<div class="show-content">
-				<div class="show-box">
-					<a href="">
-						<img src="work.JPG" alt="">
-						<p>实验室全景</p>
-					</a>
-				</div>
+			<?php foreach($show as $k=>$v):?>
+            
+                <div class="show-box">
+                <a href="{$v.url}">
+                    <img src="work.JPG" alt="">
+                    <p>{$v.title}</p>
+                   </a>
+                </div>
+            
+            <?php endforeach;?>
+				
 				<div class="show-box">
 					<a href="">
 						<img src="work.JPG" alt="">

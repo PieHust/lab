@@ -98,7 +98,7 @@ span {
 		}
 		$(function(){
 			$('#verify').click(function(){
-				$(this).attr('src',"/mlab/lab/index.php"+"/login/verify/"+Math.random());
+				$(this).attr('src',"/mlab/lab/index.php/Admin"+"/login/verify/"+Math.random());
 			});
 			/*var form = $('form');
 			form.submit(function(){

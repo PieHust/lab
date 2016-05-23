@@ -1,3 +1,26 @@
 [ 2016-04-24T19:36:06+08:00 ] 127.0.0.1 /mlab/lab/index.php/home/index/index1
 ERR: 无法加载控制器:Home
 
+[ 2016-04-24T20:21:05+08:00 ] 127.0.0.1 /mlab/lab/index.php/Admin/Index/showNewsList.html
+ERR: 模板不存在:./Application/Admin/View/Index/showNewsList.html
+
+[ 2016-04-24T20:21:43+08:00 ] 127.0.0.1 /mlab/lab/index.php/Admin/Index/showNewsList.html
+ERR: 模板不存在:./Application/Admin/View/Index/showNewsList.html
+
+[ 2016-04-24T20:21:58+08:00 ] 127.0.0.1 /mlab/lab/index.php/Admin/Index/showNewsList.html
+ERR: 模板不存在:./Application/Admin/View/Index/showNewsList.html
+
+[ 2016-04-24T20:22:04+08:00 ] 127.0.0.1 /mlab/lab/index.php/Admin/Index/showNewsList.html
+ERR: 模板不存在:./Application/Admin/View/Index/showNewsList.html
+
+[ 2016-04-24T20:24:14+08:00 ] 127.0.0.1 /mlab/lab/index.php/Admin/Index/delnews/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+SQL: SHOW COLUMNS FROM `lab_news` [ RunTime:0.0009s ]
+SQL: DELETE FROM `lab_news` WHERE ( id=1 ) [ RunTime:0.0049s ]
+
+[ 2016-04-24T20:37:52+08:00 ] 127.0.0.1 /mlab/lab/index.php/Admin/Index/addnews.html
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `lab_news` (`title`,`class_id`,`content`,`pic`,`date`) VALUES ('','1',NULL,'','1461501472')
+
